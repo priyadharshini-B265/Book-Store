@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+nav {
+    background-color:#161E54;
+    position: fixed; /* Make it stick, even on scroll */
+    width: 100%;
+}
+
+#navbar {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+#links {
+    font-size: 1.5rem;
+    padding: 10px;
+   
+}
+
+#links > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#bg-image {
+    width: 60%;
+    height: 90vh;
+}
+
+#heading {
+    color: black;
+    display: flex;
+}
+
+#logo {
+   height: 70px;
+   width: 75px;
+}
+
+#btn {
+    color: white;
+    background-color: #AA14F0;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Luxurious Roman', cursive;
+    border-radius: 5px;
+}
+
+
+
+#head {
+    /* background-color: #533E85; */
+    background-image: linear-gradient(to right,indigo,violet);
+    text-align: center;
+    margin: 100px;
+    color: white;
+    padding: 80px;
+    margin-left: 230px;
+} 
+
+#head h1 {
+    font-size: 48px;
+}
+
+#head {
+    font-size: 20px;
+}
+
+ #quote {
+    padding: 80px;
+} 
+
+#content {
+    background-color: #533E85;
+    display: flex;
+    padding: 50px;
+    padding-left: 150px;
+}
+
+.book {
+   background-color:white;
+   width: 350px;
+   height: 400px;
+   margin: 10px;
+   border-radius: 50px;
+}
+
+
+#content-author {
+    background-color:white;
+    display: flex;
+   justify-content: center;
+   padding: 50px;
+   padding-left: 140px;
+}
+
+.author {
+   background-color: #533E85;
+   width: 380px;
+   height: 350px;
+   margin: 20px;
+   border-radius: 130px;
+}
+
+#book-img {
+    height: 300px;
+    padding-left: 63px;
+    padding-right: 35px;
+    padding-top: 30px;
+}
+
+.book h1 {
+    text-align: center;
+    background-color: #AA14F0;
+    padding: 10px;
+    color: white;
+}
+
+#third-head {
+    text-align: center;
+    background-color: #161E54;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+#circle {
+    width: 100px;
+    padding-left: 60px;
+    padding-right: 25px;
+    padding-top: 5px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+#author-img {
+    height:150px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.author h1 {
+    text-align: center;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* #vertical-navbar {
+    margin-right: 95%;
+} */
+
+ul {
+    background-color: #161E54;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    top: 9.5%;
+    height: 90%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    background-color: #AA14F0;
+    margin: 20px 18px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
